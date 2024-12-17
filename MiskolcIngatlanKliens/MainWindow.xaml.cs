@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using MiskolcIngatlanKliens.Models.SubWindows;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,17 @@ namespace MiskolcIngatlanKliens
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void IngatlanokAblakNyit(object sender, RoutedEventArgs e)
+        {
+            IngatlanokWindow ingatlanokWindow = new IngatlanokWindow();
+            ingatlanokWindow.Show();
+        }
+
+        private void UgyintezokAblakNyit(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
