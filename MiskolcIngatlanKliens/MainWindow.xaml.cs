@@ -25,7 +25,7 @@ namespace MiskolcIngatlanKliens
         private void IngatlanokAblakNyit(object sender, RoutedEventArgs e)
         {
             IngatlanokWindow ingatlanokWindow = new IngatlanokWindow();
-            ingatlanokWindow.Show();
+            ingatlanokWindow.ShowDialog();
         }
 
         private void UgyintezokAblakNyit(object sender, RoutedEventArgs e)
